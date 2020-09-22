@@ -3060,7 +3060,7 @@ article .readmore >a {
     font-size: 1.05rem;
   }
   .cover-wrapper .cover .cover-body .logo {
-    max-height: 150px;
+    max-height: 50vh;
   }
 }
 .cover-wrapper .cover .cover-body .m_search {
