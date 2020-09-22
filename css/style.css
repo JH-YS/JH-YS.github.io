@@ -3041,14 +3041,23 @@ article .readmore >a {
   max-width: 100%;
 }
 .cover-wrapper .cover .cover-body .title {
+  box-shadow: rgba(20,20,20,0.4) 6px 6px;
+  user-select: none;
+  border-radius: 48px;
+  padding: 0 20px;
+  border: #fff 1px solid;
+  background: rgba(170,170,170,0.6);
+  color: rgba(255,255,255,0.9);
   font-family: "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Helvetica, monospace;
   font-size: 3rem;
-  line-height: 1.2;
+  line-height: 1.3;
 }
 .cover-wrapper .cover .cover-body .subtitle {
+  display: none;
   font-size: 0.875rem;
 }
 .cover-wrapper .cover .cover-body .logo {
+  user-select: none;
   max-height: 50vh;
   max-width: calc(100% - 4 * 16px);
 }
@@ -3058,9 +3067,6 @@ article .readmore >a {
   }
   .cover-wrapper .cover .cover-body .subtitle {
     font-size: 1.05rem;
-  }
-  .cover-wrapper .cover .cover-body .logo {
-    max-height: 50vh;
   }
 }
 .cover-wrapper .cover .cover-body .m_search {
